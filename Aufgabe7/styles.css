@@ -1,5 +1,9 @@
 body { background-color: #AFAFAF; }
 
+button { box-shadow: 10px 10px 5px #888888; border-radius: 7px; background-color: #76B900; border: none; color: white; padding: 10px 20px; text-align: center; display: inline-block; font-size: 14px;
+}
+button>a, button>a:hover {text-decoration: none; color: white;}
+
 .container { max-width: 1600px;}
 
 .panel {

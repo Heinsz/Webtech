@@ -109,6 +109,11 @@
 	   $teilnehmerinnen = $dbh->all();    //Zweidimendionales Array zur Erstellung der ersten Ansicht, alle Daten werden abgerufen.
 	?>
    <div class="container">
+       <div style="text-align: right">
+           <button type="button">
+               <a href="../index.html" alt="zurück">zurück</a>
+           </button>
+       </div>
       <div class="panel panel-default">
 
          <div class="panel-heading">

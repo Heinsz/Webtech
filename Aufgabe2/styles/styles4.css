@@ -4,7 +4,10 @@ body {
     font-size:1rem;
     }
 header {padding: 15px; margin: 20px;}
-
+button {border-radius: 7px; background-color: #4CAF50; border: none; color: white; padding: 10px 20px; text-align: center; display: inline-block; font-size: 14px;
+}
+button>a {text-decoration: none; color: white;}
+#link {text-decoration: none; color: white;}
 .flex-container >*{padding: 15px;}
     #oben {background-color: darkblue; color:white;}
     #links {background-color: cornflowerblue; margin-right: 20px; margin-left: 20px;}

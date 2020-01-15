@@ -3,8 +3,11 @@
 
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Aufgabe 5</title>
     <style>
         th {background-color: grey;}
+
+
     </style>
 
     <?php
@@ -55,6 +58,11 @@
 </head>
 
 <body class="container">
+<div style="text-align: right">
+    <button type="button" class="btn btn-sm btn-success">
+        <a href="../index.html" alt="zurück" style="color: white;">zurück</a>
+    </button>
+</div>
 <h1>Zufallszahlen</h1>
 
 <?php  zufzahl(20000, 20, 3); ?>

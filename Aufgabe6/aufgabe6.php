@@ -5,12 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <title>Aufgabe 6</title>
+    <style>
+        button {margin-top: 10px;}
+        button>a:hover{text-decoration: none; color: white;}
+    </style>
     <?php
         require_once "./mockdataarray.php";
     ?>
 </head>
 <body>
+
 <div class="container">
+    <div style="text-align: right">
+        <button type="button" class="btn btn-secondary btn-success">
+            <a href="../index.html" alt="zurück" style="color: white;">zurück</a>
+        </button>
+    </div>
     <h1>Teilnehmerinnen</h1>
     <?php
     if (isset($_GET['id'])):    /*wenn das Get-Array befüllt ist*/

@@ -17,4 +17,7 @@ nav a:link{text-decoration: none;}
 nav a:hover{background-color: #AFAFAF; color: #FF5F00;}
 section {margin-left: 10%; margin-right: 10%}     /*Habe mich entschieden, nicht nur das Table-Element "einzurücken, sondern auch die Überschrift der Tabelle*/
 footer {background-color: #FF5F00; text-align: center; color: black; padding: 20px;}
+button {border-radius: 7px; background-color: #4CAF50; border: none; color: white; padding: 10px 20px; text-align: center; display: inline-block; font-size: 14px;
+}
+button>a {text-decoration: none; color: white;}
 
