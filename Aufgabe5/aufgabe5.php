@@ -6,6 +6,7 @@
     <title>Aufgabe 5</title>
     <style>
         th {background-color: grey;}
+        button>a:hover{text-decoration: none;}
 
 
     </style>
